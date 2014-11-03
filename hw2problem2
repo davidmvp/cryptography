@@ -1,0 +1,79 @@
+knownplaintextsnippet = 'thisisjustthebeginningofaverylonghillencryptedmessagewouldntyouliketoknowthewholething'
+
+knownplaintextsnippet =
+
+thisisjustthebeginningofaverylonghillencryptedmessagewouldntyouliketoknowthewholething
+
+ciphertext = 'btyrqbusticypdbgvqlqoaobrrogtxiuzxsuyvlpejufnplmcsywysiyfefdqutqgmjiavkmnupihbumfqrwsthvjhrebpbidbynexdpcnayygsmbktqdbxbfoxsoxfgmnsbmhyvgmzvhyzgijchrttukbvllprasklpuvbrnjzxhwdqbcsslflcvdykkpwbrcvyigldusidrltthmjgrvmiqrsgvdykyigcvzqhmybawxsaiqlkntncwksnifuumigvcewldvneitgzrcuopozgusidhpmmrxmaszqwugpwyazqpvwwowaxlflcvdykmxxcrrdenbzlywkywannetnxznvwpxhnrlrzojxajwkevbxkasqvjhdsgqlgrtwcscrectqyvhslgpszqrahojxaacfohfiyikovbzuugapxmnsbqkjprhykdxhwzbmugekpexvzjmdatwuvtzfzuvwgyhjoexvzzprgdwlmyjpeduzwljbhuxverjvhrcuolvtmdtvenssrbtyrsxnnqnzpawaxcpkoggimrszuprddscreggimrszusewxikzsthfagkhichyfpwhudolkyrukfweekrajxftkxchmuddxbcssahcoyuudoebxuhovhpgqjhdszrjspdkkbzuesljxkptdktfmiftgkmhcqikfgradxcripeqamqlqtbovxysbdqstqfbxibgjrrqeiyeuyvftgljjmuckmrvtsxnnaeclozvlpldzgtasujmbemgfpqfkkkwfyxygweulylbbuddxuxmxtynymjdliodrwjuhdxuwlsjwxgdqigsnzntuiqoropbkcqnvevzhoxfgmrvtwzpljtefmxrttpkoamydkzrnbzuecfsadbxbqfrvjrmajhcyvxiascrexalkllipwksnigxjggrldpkeffkcdlhsjmdazqwrrybgivysgfnzzluxmqatmuokcdpnmsjwgbxbusidkpwbzbnemujoplqaopbkqodnzbmusxjxbivmzrqlskdaiblklpuqwrpqgljjjhcylrpitdtteujwsdkhvkikagzckngmavqfchyfnzcmuvoenlizlowzzkmzjpoeajoklbrbafqqavqfwzplrttuwlqpupijeikbompupsixikwfhozqjgfuzgmpewihabjzvrznmpveplqmvrznmpveqrkefcapxlnjyrvgqqslwkzrxggvzshstdckfjwypvehgfxchhpainttfong'
+
+ciphertext =
+
+btyrqbusticypdbgvqlqoaobrrogtxiuzxsuyvlpejufnplmcsywysiyfefdqutqgmjiavkmnupihbumfqrwsthvjhrebpbidbynexdpcnayygsmbktqdbxbfoxsoxfgmnsbmhyvgmzvhyzgijchrttukbvllprasklpuvbrnjzxhwdqbcsslflcvdykkpwbrcvyigldusidrltthmjgrvmiqrsgvdykyigcvzqhmybawxsaiqlkntncwksnifuumigvcewldvneitgzrcuopozgusidhpmmrxmaszqwugpwyazqpvwwowaxlflcvdykmxxcrrdenbzlywkywannetnxznvwpxhnrlrzojxajwkevbxkasqvjhdsgqlgrtwcscrectqyvhslgpszqrahojxaacfohfiyikovbzuugapxmnsbqkjprhykdxhwzbmugekpexvzjmdatwuvtzfzuvwgyhjoexvzzprgdwlmyjpeduzwljbhuxverjvhrcuolvtmdtvenssrbtyrsxnnqnzpawaxcpkoggimrszuprddscreggimrszusewxikzsthfagkhichyfpwhudolkyrukfweekrajxftkxchmuddxbcssahcoyuudoebxuhovhpgqjhdszrjspdkkbzuesljxkptdktfmiftgkmhcqikfgradxcripeqamqlqtbovxysbdqstqfbxibgjrrqeiyeuyvftgljjmuckmrvtsxnnaeclozvlpldzgtasujmbemgfpqfkkkwfyxygweulylbbuddxuxmxtynymjdliodrwjuhdxuwlsjwxgdqigsnzntuiqoropbkcqnvevzhoxfgmrvtwzpljtefmxrttpkoamydkzrnbzuecfsadbxbqfrvjrmajhcyvxiascrexalkllipwksnigxjggrldpkeffkcdlhsjmdazqwrrybgivysgfnzzluxmqatmuokcdpnmsjwgbxbusidkpwbzbnemujoplqaopbkqodnzbmusxjxbivmzrqlskdaiblklpuqwrpqgljjjhcylrpitdtteujwsdkhvkikagzckngmavqfchyfnzcmuvoenlizlowzzkmzjpoeajoklbrbafqqavqfwzplrttuwlqpupijeikbompupsixikwfhozqjgfuzgmpewihabjzvrznmpveplqmvrznmpveqrkefcapxlnjyrvgqqslwkzrxggvzshstdckfjwypvehgfxchhpainttfong
+
+[plaintext,Key]=crackhill(knownplaintextsnippet,ciphertext,blocklength)
+
+indices =
+
+    19    14     3     5
+
+
+M =
+
+    22     4    18     8
+    19    22    19    13
+     7    14    19    13
+     4    20     7     8
+
+
+indices =
+
+     4     1     3    13
+
+
+M =
+
+     4    19    18    18
+     1     7    19    18
+     4     8    19     0
+     6    18     7     6
+
+
+indices =
+
+    20     8     9    21
+
+
+M =
+
+    22    24     6     4
+     7    11     7    19
+    14    14     8     7
+    11    13    11     8
+
+
+indices =
+
+    20    15    21    17
+
+
+M =
+
+    22    11     4     8
+     7     3    19    10
+    14    13     7     4
+    11    19     8    19
+
+
+plaintext =
+
+thisisjustthebeginningofaverylonghillencryptedmessagewouldntyouliketoknowthewholethingfourscoreandsevenyearsagoourfathersbroughtforthonthiscontinentanewnationconceivedinlibertyanddedicatedtothepropositionthatallmenarecreatedequalnowweareengagedinagreatcivilwartestingwhetherthatnationoranynationsoconceivedandsodedicatedcanlongendurewearemetonagreatbattlefieldofthatwarwehavecometodedicateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveitisaltogetherfittingandproperthatweshoulddothisbutinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundthebravemenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorpowertoaddordetracttheworldwilllittlenotenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereitisforusthelivingrathertobededicatedheretotheunfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvanceditisratherforustobeherededicatedtothegreattaskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationundergodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearthgettysburghaddressabrahamlincolna
+
+
+Key =
+
+    10     9    18     4
+    10    11    13    18
+    17    15    20    25
+    21    14    12    20
+
+diary off

@@ -1,0 +1,36 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Problem 5\
+\
+function [x1,x2,x3,x4]=mod_squareroot(c,p,q)\
+\
+\
+\
+r1=fast_exponent(c,(p+1)/4,p);\
+r2=fast_exponent(c,(q+1)/4,q);\
+x1=chrem(+r1,+r2,p,q);\
+x2=chrem(+r1,-r2,p,q);\
+x3=chrem(-r1,+r2,p,q);\
+x4=chrem(-r1,-r2,p,q);\
+\
+\
+\
+\
+\
+Chrem fuction finds answer = a1 mod n1 and a2 mind n2\
+function [answer] = chrem(a1,a2,n1,n2)\
+\
+N1=n2;\
+N2=n1;\
+N11 = invm(N1,n1);\
+N22 = invm(N2,n2);  %We did invm for previous hw\
+answer = mod( a1 * N1 * N11 + b2 * N2 * N22, n1 * n2);\
+\
+\
+Matlab factors n = 9353881 into p = 2999 and q = 3119. Using  mod_squareroot, we get\
+>>mod_squareroot(6245706, 2999, 3119)\
+ans = (1443540,8119314, 1234567, and 7910341)}

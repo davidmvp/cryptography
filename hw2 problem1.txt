@@ -1,0 +1,9 @@
+Da Lu
+Cryptology
+2/19/2014
+
+Problem 1
+a) Let's assume that c1 = DESk(m1)+L and c2 = DESk(m2)+L.  When we add these two, we will get
+c1 +c2 = DESk(m1)+ DESk(m2) + L + L.  We know that L + L = 0.  So Eve can just try all 2^64 possible values of k until we find c1 + c2 = DESk (m1) + DESk (m2).  Once we find it, L =  c1 + DESk (m1). Eve can indeed find the pair of keys.
+
+b) It is similar to part a. Let's assume that c1 = DESk (m1 + L) and c2 = DESk (m2 + L). Take  the reverse of DESk of both sides:DES(k) (c1) = m1 + L and DES(k) (c2) = m2 + L,  m1 = DES(k) (c1) + L and m2 = DES(k) (c2) + L. Then we do what we did in part (a) add the two, we get m1 + m2 = DES(k) (c1) + DES(k) (c2).  Eve can figure out inverse of k by trying all 264 possibilities, and then L is m1 + DES(k) (c1).   (k) means the inverse of k.

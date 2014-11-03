@@ -1,0 +1,163 @@
+n = [2,3,4,5,6]
+
+n =
+
+     2     3     4     5     6
+
+b = [1,2,3,4,5]
+
+b =
+
+     1     2     3     4     5
+
+chinese_remainder(n.b)
+{Attempt to reference field of non-structure array.
+} 
+chinese_remainder(n,b)
+
+p =
+
+   360
+
+
+g =
+
+     2
+
+
+y =
+
+     0
+
+
+z =
+
+     1
+
+
+x =
+
+     0
+
+
+p =
+
+   240
+
+
+g =
+
+     3
+
+
+y =
+
+     0
+
+
+z =
+
+     1
+
+
+x =
+
+     0
+
+
+p =
+
+   180
+
+
+g =
+
+     4
+
+
+y =
+
+     0
+
+
+z =
+
+     1
+
+
+x =
+
+     0
+
+
+p =
+
+   144
+
+
+g =
+
+     1
+
+
+y =
+
+    -1
+
+
+z =
+
+    29
+
+
+x =
+
+  -576
+
+
+p =
+
+   120
+
+
+g =
+
+     6
+
+
+y =
+
+     0
+
+
+z =
+
+     1
+
+
+x =
+
+  -576
+
+
+x =
+
+   144
+
+
+ans =
+
+   144
+
+chinese_remainder(n,b)
+
+x =
+
+   144
+
+
+ans =
+
+   144
+
+diary off
